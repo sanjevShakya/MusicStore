@@ -1,9 +1,8 @@
 package com.sshakya.musicstore.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import org.springframework.web.multipart.MultipartFile;
+
+import javax.persistence.*;
 
 /**
  * Created by sshakya on 7/9/16.
@@ -21,11 +20,14 @@ public class Product {
     private String productStatus;
     private int unitInStock;
     private String productManufacturer;
+    @Transient //wont create a field in database for image
+    private MultipartFile productImage;
+
 
     public Product() {
     }
 
-    public Product(int productId,String productName, String productCategory, String productDescription, double productPrice, String productCondition, String productStatus, int unitInStock, String productManufacturer) {
+    public Product(int productId,String productName, String productCategory, String productDescription, double productPrice, String productCondition, String productStatus, int unitInStock, String productManufacturer,MultipartFile productImage) {
         this.productId=productId;
         this.productName = productName;
         this.productCategory = productCategory;
@@ -35,6 +37,7 @@ public class Product {
         this.productStatus = productStatus;
         this.unitInStock = unitInStock;
         this.productManufacturer = productManufacturer;
+        this.productImage= productImage;
     }
 
     public int getProductId() {
@@ -99,6 +102,14 @@ public class Product {
 
     public void setUnitInStock(int unitInStock) {
         this.unitInStock = unitInStock;
+    }
+
+    public MultipartFile getProductImage() {
+        return productImage;
+    }
+
+    public void setProductImage(MultipartFile productImage) {
+        this.productImage = productImage;
     }
 
     public String getProductManufacturer() {

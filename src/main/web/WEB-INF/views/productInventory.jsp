@@ -32,6 +32,7 @@
                     <td>${product.productStatus}</td>
                     <td>${product.productManufacturer}</td>
                     <th><a href="<spring:url value="/productList/viewProduct/${product.productId}"/>"> <span class="btn btn-primary glyphicon glyphicon-info-sign"></span> </a></th>
+                    <th><a href="<spring:url value="/admin/productInventory/deleteProduct/${product.productId}"/>"> <span class="btn btn-primary btn-danger glyphicon glyphicon-remove"></span> </a></th>
                 </tr>
             </c:forEach>
 

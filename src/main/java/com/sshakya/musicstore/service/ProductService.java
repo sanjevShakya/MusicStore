@@ -25,7 +25,8 @@ public class ProductService {
     public void addProduct(Product product){
         productDao.addProduct(product);
     }
-    void deleteProduct(int id) throws IOException{
+
+    public void deleteProduct(int id) throws IOException{
         productDao.deleteProduct(id);
     }
 }
