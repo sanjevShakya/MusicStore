@@ -2,105 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16c4557c-44c4-45c0-a9b7-7502b4524f02" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/bootstrap.min.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/dispatcher-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/css/carousel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/js/jquery-3.0.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/admin.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/home.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/productInventory.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/productList.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/templates/footer.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/templates/header.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/viewProduct.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/resources/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/views/addProduct.jsp" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/sshakya/musicstore/controller/HomeController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/sshakya/musicstore/controller/HomeController.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/sshakya/musicstore/dao/ProductDao.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/sshakya/musicstore/dao/ProductDao.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/sshakya/musicstore/dao/impl/ProductDaoImpl.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/sshakya/musicstore/dao/impl/ProductDaoImpl.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/sshakya/musicstore/model/Product.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/sshakya/musicstore/model/Product.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/sshakya/musicstore/service/ProductService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/sshakya/musicstore/service/ProductService.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/antlr-2.7.7.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/antlr-2.7.7.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/aopalliance-1.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/aopalliance-1.0.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/commons-collections-3.2.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-collections-3.2.1.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/commons-fileupload-1.2.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-fileupload-1.2.2.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/commons-io-2.4.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-io-2.4.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/commons-logging-1.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-logging-1.2.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/dom4j-1.6.1.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/h2-1.4.192.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/h2-1.4.192.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/hibernate-commons-annotations-4.0.1.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-commons-annotations-4.0.1.Final.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/hibernate-core-4.0.1.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-core-4.0.1.Final.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/javassist-3.15.0-GA.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javassist-3.15.0-GA.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/jboss-logging-3.1.0.CR2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jboss-logging-3.1.0.CR2.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/jstl-1.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jstl-1.2.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/spring-aop-4.1.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-aop-4.1.6.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/spring-beans-4.1.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-beans-4.1.6.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/spring-context-4.1.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-context-4.1.6.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/spring-core-4.1.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-core-4.1.6.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/spring-expression-4.1.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-expression-4.1.6.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/spring-jdbc-4.1.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-jdbc-4.1.6.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/spring-orm-4.1.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-orm-4.1.6.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/spring-tx-4.1.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-tx-4.1.6.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/spring-web-4.1.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-web-4.1.6.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/spring-webmvc-4.1.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-webmvc-4.1.6.RELEASE.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/standard-1.1.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/standard-1.1.2.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/xml-apis-1.0.b2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xml-apis-1.0.b2.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/addProduct.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addProduct.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/resources/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/bootstrap-theme.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/resources/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/bootstrap-theme.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/resources/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/resources/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/bootstrap-theme.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/resources/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/resources/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/resources/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/bootstrap.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/resources/css/carousel.css" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/carousel.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/resources/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/resources/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/resources/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/resources/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/resources/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/resources/js/bootstrap.js" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/resources/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/resources/js/jquery-3.0.0.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/jquery-3.0.0.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/resources/js/jquery.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/views/admin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/views/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/views/productInventory.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productInventory.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/views/productList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/views/templates/footer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/footer.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/views/templates/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/header.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/views/viewProduct.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewProduct.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/sshakya/musicstore/controller/HomeController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/sshakya/musicstore/controller/HomeController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sshakya/musicstore/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/com/sshakya/musicstore/controller/HomeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sshakya/musicstore/model/Product.class" afterPath="$PROJECT_DIR$/target/classes/com/sshakya/musicstore/model/Product.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/MusicStore_Web_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/MusicStore_Web_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicStore.iml" afterPath="$PROJECT_DIR$/MusicStore.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/controller/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/controller/HomeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/model/Product.java" afterPath="$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/model/Product.java" />
     </list>
     <ignored path="MusicStore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -144,16 +49,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="productList.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/model/Product.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -166,15 +61,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+            <state relative-caret-position="234">
+              <caret line="70" column="69" selection-start-line="70" selection-start-column="69" selection-end-line="70" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="33.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/images/33.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -257,8 +159,8 @@
         <option value="$PROJECT_DIR$/src/web/WEB-INF/views/addProduct.jsp" />
         <option value="$PROJECT_DIR$/src/web/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/model/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/controller/HomeController.java" />
       </list>
     </option>
   </component>
@@ -362,6 +264,70 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MusicStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MusicStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MusicStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MusicStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -972,12 +938,12 @@
       <workItem from="1468570787410" duration="1091000" />
       <workItem from="1468572020053" duration="10589000" />
       <workItem from="1468588540742" duration="6305000" />
-      <workItem from="1468598708952" duration="38000" />
+      <workItem from="1468598708952" duration="563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18023000" />
+    <option name="totallyTimeSpent" value="18548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -985,6 +951,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32833582" sideWeight="0.47071743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -992,6 +959,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298351" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46026987" sideWeight="0.47657394" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1003,14 +971,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.47071743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46034214" sideWeight="0.47657394" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1028,14 +994,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/model/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1399,12 +1357,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+        <state relative-caret-position="234">
+          <caret line="70" column="69" selection-start-line="70" selection-start-column="69" selection-end-line="70" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/images/33.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
