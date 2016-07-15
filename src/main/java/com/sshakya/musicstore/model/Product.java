@@ -27,7 +27,7 @@ public class Product {
     public Product() {
     }
 
-    public Product(int productId,String productName, String productCategory, String productDescription, double productPrice, String productCondition, String productStatus, int unitInStock, String productManufacturer,MultipartFile productImage) {
+    public Product(int productId,String productName, String productCategory, String productDescription, double productPrice, String productCondition, String productStatus, int unitInStock, String productManufacturer) {
         this.productId=productId;
         this.productName = productName;
         this.productCategory = productCategory;
@@ -37,7 +37,7 @@ public class Product {
         this.productStatus = productStatus;
         this.unitInStock = unitInStock;
         this.productManufacturer = productManufacturer;
-        this.productImage= productImage;
+
     }
 
     public int getProductId() {

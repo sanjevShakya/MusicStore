@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.multipart.MultipartFile;
 
+
 import javax.servlet.http.HttpServletRequest;
 import java.io.File;
 import java.io.IOException;
@@ -64,6 +65,7 @@ public class HomeController {
     }
     @RequestMapping(value = "/admin/productInventory/addProduct",method = RequestMethod.POST)
     public String addProductPost(@ModelAttribute("product")Product product, HttpServletRequest request){
+        productService.addProduct(product);
         MultipartFile productImage = product.getProductImage();
         String rootDirectory =request.getSession().getServletContext().getRealPath("/");
         path= Paths.get(rootDirectory+"\\WEB-INF\\resources\\images\\"+product.getProductId()+".png");
@@ -76,7 +78,7 @@ public class HomeController {
 
             }
         }
-        productService.addProduct(product);
+
         return "redirect:/admin/productInventory";
 
     }
