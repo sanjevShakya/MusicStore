@@ -1,6 +1,7 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@include file="templates/header.jsp"%>
 <div class="container">
+<div class="jumbotron">
     <h1>Edit Product</h1>
     <p class="lead">Fill the below information to add a product</p>
 </div>
@@ -51,5 +52,6 @@
         <input type="submit" value="submit" class="btn btn-default">
         <a href="<c:url value="/admin/productInventory"/>"class="btn btn-danger">Cancel</a>
     </form:form>
+</div>
 </div>
 <%@include file="templates/footer.jsp"%>
