@@ -23,7 +23,7 @@
 
 
                 <tr>
-                    <td><img src="#"alt="image"></td>
+                    <td><img src="<c:url value="/resources/images/${product.productId}.png"/>"alt="image" class="img-responsive img-rounded img-thumbnail" style="width: 100%;"></td>
                     <td>${product.productName}</td>
                     <td>${product.productCategory}</td>
                     <td>${product.productDescription}</td>
@@ -31,8 +31,11 @@
                     <td>${product.productCondition}</td>
                     <td>${product.productStatus}</td>
                     <td>${product.productManufacturer}</td>
-                    <th><a href="<spring:url value="/productList/viewProduct/${product.productId}"/>"> <span class="btn btn-primary glyphicon glyphicon-info-sign"></span> </a></th>
-                    <th><a href="<spring:url value="/admin/productInventory/deleteProduct/${product.productId}"/>"> <span class="btn btn-primary btn-danger glyphicon glyphicon-remove"></span> </a></th>
+                    <td>
+                        <a href="<spring:url value="/productList/viewProduct/${product.productId}"/>"> <span class="btn btn-primary glyphicon glyphicon-info-sign"></span> </a>
+                        <a href="<spring:url value="/admin/productInventory/deleteProduct/${product.productId}"/>"> <span class="btn  btn-danger glyphicon glyphicon-remove"></span> </a>
+                        <a href="<spring:url value="/admin/productInventory/editProduct/${product.productId}"/>"> <span class="btn btn-success glyphicon glyphicon-pencil"></span> </a>
+                    </td>
                 </tr>
             </c:forEach>
 

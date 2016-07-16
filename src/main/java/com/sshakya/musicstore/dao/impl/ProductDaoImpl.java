@@ -48,4 +48,10 @@ public class ProductDaoImpl implements ProductDao {
         session.delete(getByProductId(id));
         session.flush();
     }
+
+    public void editProduct(Product product) {
+        Session session = sessionFactory.getCurrentSession(); //used as a singleton pattern
+        session.saveOrUpdate(product);
+        session.flush();
+    }
 }

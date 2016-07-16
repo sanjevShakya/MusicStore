@@ -14,4 +14,5 @@ public interface ProductDao {
     Product getByProductId(int id) throws IOException;
     void addProduct(Product product);
     void deleteProduct(int id) throws IOException ;
+    void editProduct(Product product);
 }
