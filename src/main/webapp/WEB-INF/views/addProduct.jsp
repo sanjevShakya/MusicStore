@@ -6,9 +6,10 @@
     <p class="lead">Fill the below information to add a product</p>
 </div>
 <div class="container">
+    
     <form:form action="${BASE_URL}admin/productInventory/addProduct" method="post" commandName="product" enctype="multipart/form-data">
         <div class="form-group">
-            <label for="name">Name</label>
+            <label for="name">Name</label><form:errors path="productName" cssStyle="color: #ff0000"/>
             <form:input path="productName" id="name" class="form-Control"/>
         </div>
         <div class="form-group">
@@ -22,7 +23,7 @@
             <form:textarea path="productDescription" id="description" class="form-Control"/>
         </div>
         <div class="form-group">
-            <label for="price">Price</label>
+            <label for="price">Price</label><form:errors path="productPrice" cssStyle="color: #ff0000"/>
             <form:input path="productPrice" id="price" class="form-Control"/>
         </div>
         <div class="form-group">
@@ -36,7 +37,7 @@
             <label class="checkbox-inline"><form:radiobutton path="productStatus" id="status" value="inactive"/>Inactive</label>
         </div>
         <div class="form-group">
-            <label for="unitInStock">Unit In Stock</label>
+            <label for="unitInStock">Unit In Stock</label><form:errors path="unitInStock" cssStyle="color: #ff0000"/>
             <form:input path="unitInStock" id="unitInStock" class="form-Control"/>
         </div>
         <div class="form-group">
@@ -51,6 +52,7 @@
         <input type="submit" value="submit" class="btn btn-default">
         <a href="<c:url value="/admin/productInventory"/>"class="btn btn-danger">Cancel</a>
     </form:form>
+
 </div>
 </div>
 <%@include file="templates/footer.jsp"%>

@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16c4557c-44c4-45c0-a9b7-7502b4524f02" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/images/back1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/images/back2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/images/back3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/images/back4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/images/back5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_0_0_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_4_2_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/sshakya/musicstore/controller/HomeController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/sshakya/musicstore/controller/HomeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/sshakya/musicstore/model/Product.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/sshakya/musicstore/model/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sshakya/musicstore/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/com/sshakya/musicstore/controller/HomeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sshakya/musicstore/model/Product.class" afterPath="$PROJECT_DIR$/target/classes/com/sshakya/musicstore/model/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/MusicStore_Web_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/MusicStore_Web_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/carousel.css" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/carousel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/main.css" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicStore.iml" afterPath="$PROJECT_DIR$/MusicStore.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/controller/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/controller/HomeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/model/Product.java" afterPath="$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/model/Product.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addProduct.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addProduct.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editProduct.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editProduct.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/header.jsp" />
     </list>
     <ignored path="MusicStore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,22 +39,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="addProduct.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="addProduct.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addProduct.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+            <state relative-caret-position="120">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viewProduct.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewProduct.jsp">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="307">
+              <caret line="116" column="33" selection-start-line="116" selection-start-column="33" selection-end-line="116" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,18 +74,38 @@
       <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
+            <state relative-caret-position="780">
               <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="carousel.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="carousel.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/carousel.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+            <state relative-caret-position="-407">
+              <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/model/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="24" column="74" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -93,26 +116,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="productInventory.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productInventory.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="63" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="productList.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="180" selection-start-line="24" selection-start-column="180" selection-end-line="24" selection-end-column="180" />
               <folding />
             </state>
           </provider>
@@ -131,7 +134,7 @@
       <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="150">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
@@ -165,22 +168,22 @@
         <option value="$PROJECT_DIR$/src/web/WEB-INF/views/productInventory.jsp" />
         <option value="$PROJECT_DIR$/src/web/WEB-INF/views/addProduct.jsp" />
         <option value="$PROJECT_DIR$/src/web/WEB-INF/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/model/Product.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewProduct.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productInventory.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/dao/impl/ProductDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/service/ProductService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editProduct.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addProduct.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/main.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/carousel.css" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/model/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addProduct.jsp" />
       </list>
     </option>
   </component>
@@ -240,7 +243,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -664,6 +666,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -1196,20 +1199,21 @@
       <workItem from="1468572020053" duration="10589000" />
       <workItem from="1468588540742" duration="6305000" />
       <workItem from="1468598708952" duration="680000" />
-      <workItem from="1468645730044" duration="9878000" />
+      <workItem from="1468645730044" duration="10479000" />
+      <workItem from="1468816292779" duration="1686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28543000" />
+    <option name="totallyTimeSpent" value="30830000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="24" width="1366" height="744" extended-state="6" />
+    <frame x="1366" y="24" width="1366" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21603929" sideWeight="0.47071743" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21451613" sideWeight="0.47071743" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1217,12 +1221,13 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298351" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06451613" sideWeight="0.47657394" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07096774" sideWeight="0.47657394" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21860817" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1289,7 +1294,7 @@
         <state relative-caret-position="60">
           <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1329,48 +1334,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
-          <folding>
-            <element signature="e#1360#1361#0" expanded="false" />
-            <element signature="e#1392#1393#0" expanded="false" />
-            <element signature="e#1439#1440#0" expanded="false" />
-            <element signature="e#1481#1482#0" expanded="false" />
-            <element signature="e#1519#1520#0" expanded="false" />
-            <element signature="e#1553#1554#0" expanded="false" />
-            <element signature="e#1607#1608#0" expanded="false" />
-            <element signature="e#1653#1654#0" expanded="false" />
-            <element signature="e#1695#1696#0" expanded="false" />
-            <element signature="e#1733#1734#0" expanded="false" />
-            <element signature="e#1795#1796#0" expanded="false" />
-            <element signature="e#1849#1850#0" expanded="false" />
-            <element signature="e#1894#1895#0" expanded="false" />
-            <element signature="e#1935#1936#0" expanded="false" />
-            <element signature="e#2003#2004#0" expanded="false" />
-            <element signature="e#2063#2064#0" expanded="false" />
-            <element signature="e#2102#2103#0" expanded="false" />
-            <element signature="e#2137#2138#0" expanded="false" />
-            <element signature="e#2193#2194#0" expanded="false" />
-            <element signature="e#2241#2242#0" expanded="false" />
-            <element signature="e#2284#2285#0" expanded="false" />
-            <element signature="e#2323#2324#0" expanded="false" />
-            <element signature="e#2387#2388#0" expanded="false" />
-            <element signature="e#2443#2444#0" expanded="false" />
-            <element signature="e#2483#2484#0" expanded="false" />
-            <element signature="e#2519#2520#0" expanded="false" />
-            <element signature="e#2577#2578#0" expanded="false" />
-            <element signature="e#2627#2628#0" expanded="false" />
-            <element signature="e#2662#2663#0" expanded="false" />
-            <element signature="e#2696#2697#0" expanded="false" />
-            <element signature="e#2747#2748#0" expanded="false" />
-            <element signature="e#2793#2794#0" expanded="false" />
-            <element signature="e#2839#2840#0" expanded="false" />
-            <element signature="e#2874#2875#0" expanded="false" />
-            <element signature="e#2937#2938#0" expanded="false" />
-            <element signature="e#2985#2986#0" expanded="false" />
-            <element signature="e#3031#3032#0" expanded="false" />
-            <element signature="e#3073#3074#0" expanded="false" />
-            <element signature="e#3143#3144#0" expanded="false" />
-            <element signature="e#3205#3206#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1426,48 +1390,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1360#1361#0" expanded="false" />
-            <element signature="e#1392#1393#0" expanded="false" />
-            <element signature="e#1439#1440#0" expanded="false" />
-            <element signature="e#1481#1482#0" expanded="false" />
-            <element signature="e#1519#1520#0" expanded="false" />
-            <element signature="e#1553#1554#0" expanded="false" />
-            <element signature="e#1607#1608#0" expanded="false" />
-            <element signature="e#1653#1654#0" expanded="false" />
-            <element signature="e#1695#1696#0" expanded="false" />
-            <element signature="e#1733#1734#0" expanded="false" />
-            <element signature="e#1795#1796#0" expanded="false" />
-            <element signature="e#1849#1850#0" expanded="false" />
-            <element signature="e#1894#1895#0" expanded="false" />
-            <element signature="e#1935#1936#0" expanded="false" />
-            <element signature="e#2003#2004#0" expanded="false" />
-            <element signature="e#2063#2064#0" expanded="false" />
-            <element signature="e#2102#2103#0" expanded="false" />
-            <element signature="e#2137#2138#0" expanded="false" />
-            <element signature="e#2193#2194#0" expanded="false" />
-            <element signature="e#2241#2242#0" expanded="false" />
-            <element signature="e#2284#2285#0" expanded="false" />
-            <element signature="e#2323#2324#0" expanded="false" />
-            <element signature="e#2387#2388#0" expanded="false" />
-            <element signature="e#2443#2444#0" expanded="false" />
-            <element signature="e#2483#2484#0" expanded="false" />
-            <element signature="e#2519#2520#0" expanded="false" />
-            <element signature="e#2577#2578#0" expanded="false" />
-            <element signature="e#2627#2628#0" expanded="false" />
-            <element signature="e#2662#2663#0" expanded="false" />
-            <element signature="e#2696#2697#0" expanded="false" />
-            <element signature="e#2747#2748#0" expanded="false" />
-            <element signature="e#2793#2794#0" expanded="false" />
-            <element signature="e#2839#2840#0" expanded="false" />
-            <element signature="e#2874#2875#0" expanded="false" />
-            <element signature="e#2937#2938#0" expanded="false" />
-            <element signature="e#2985#2986#0" expanded="false" />
-            <element signature="e#3031#3032#0" expanded="false" />
-            <element signature="e#3073#3074#0" expanded="false" />
-            <element signature="e#3143#3144#0" expanded="false" />
-            <element signature="e#3205#3206#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1585,22 +1508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/dao/ProductDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1614,18 +1521,8 @@
         <state relative-caret-position="330">
           <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
           <folding>
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#848#849#0" expanded="false" />
+            <element signature="e#895#896#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1635,7 +1532,7 @@
         <state relative-caret-position="209">
           <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1672,25 +1569,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
+        <state relative-caret-position="780">
           <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
           <folding />
         </state>
@@ -1698,7 +1579,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="150">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
@@ -1714,8 +1595,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/carousel.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+        <state relative-caret-position="-407">
+          <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="74" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sshakya/musicstore/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="116" column="33" selection-start-line="116" selection-start-column="33" selection-end-line="116" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editProduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addProduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding />
         </state>
       </provider>
