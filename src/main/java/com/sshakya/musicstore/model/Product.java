@@ -13,7 +13,7 @@ import javax.validation.constraints.Min;
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int productId;
+    private String productId;
     @NotEmpty(message="The product name must not be null")
     private String productName;
     private String productCategory;
@@ -32,7 +32,7 @@ public class Product {
     public Product() {
     }
 
-    public Product(int productId,String productName, String productCategory, String productDescription, double productPrice, String productCondition, String productStatus, int unitInStock, String productManufacturer) {
+    public Product(String productId,String productName, String productCategory, String productDescription, double productPrice, String productCondition, String productStatus, int unitInStock, String productManufacturer) {
         this.productId=productId;
         this.productName = productName;
         this.productCategory = productCategory;
@@ -45,11 +45,11 @@ public class Product {
 
     }
 
-    public int getProductId() {
+    public String getProductId() {
         return productId;
     }
 
-    public void setProductId(int productId) {
+    public void setProductId(String productId) {
         this.productId = productId;
     }
 

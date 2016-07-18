@@ -11,8 +11,8 @@ import java.util.List;
 public interface ProductDao {
 
     List<Product> getAllProducts();
-    Product getByProductId(int id) throws IOException;
+    Product getByProductId(String id) throws IOException;
     void addProduct(Product product);
-    void deleteProduct(int id) throws IOException ;
+    void deleteProduct(String id) throws IOException ;
     void editProduct(Product product);
 }

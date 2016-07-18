@@ -19,14 +19,14 @@ public class ProductService {
         return productDao.getAllProducts();
     }
 
-    public Product getById(int id) throws IOException{
+    public Product getById(String id) throws IOException{
         return productDao.getByProductId(id);
     }
     public void addProduct(Product product){
         productDao.addProduct(product);
     }
 
-    public void deleteProduct(int id) throws IOException{
+    public void deleteProduct(String id) throws IOException{
         productDao.deleteProduct(id);
     }
     public void editProduct(Product product){

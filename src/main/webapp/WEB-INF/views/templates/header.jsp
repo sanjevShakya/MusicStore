@@ -20,7 +20,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="${RESOURCES}/css/bootstrap.min.css" rel="stylesheet">
-    <link href="${RESOURCES}/css/main.css" rel="stylesheet">
+
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -31,6 +31,7 @@
 
     <!-- Custom styles for this template -->
     <link href="${RESOURCES}/css/carousel.css" rel="stylesheet">
+    <link href="${RESOURCES}/css/main.css" rel="stylesheet">
 </head>
 <!-- NAVBAR
 ================================================== -->

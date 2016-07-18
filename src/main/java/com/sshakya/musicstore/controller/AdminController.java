@@ -74,7 +74,7 @@ public class AdminController{
     }
 
     @RequestMapping("/admin/productInventory/deleteProduct/{id}")
-    public String deleteProduct(@PathVariable int id, ModelMap map, HttpServletRequest request) throws IOException {
+    public String deleteProduct(@PathVariable String id, ModelMap map, HttpServletRequest request) throws IOException {
         String rootDirectory =request.getSession().getServletContext().getRealPath("/");
         path= Paths.get(rootDirectory+"//WEB-INF//resources//images//"+id+".png");
         if(Files.exists(path)){
@@ -89,7 +89,7 @@ public class AdminController{
     }
 
     @RequestMapping("/admin/productInventory/editProduct/{id}")
-    public String editProduct(@PathVariable("id")int id,ModelMap map) throws IOException {
+    public String editProduct(@PathVariable("id")String id,ModelMap map) throws IOException {
         Product product = productService.getById(id);
         map.addAttribute(product);
         return "editProduct";

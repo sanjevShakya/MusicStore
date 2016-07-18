@@ -28,7 +28,7 @@ public class HomeController {
         return "productList";
     }
     @RequestMapping("/productList/viewProduct/{productId}")
-    public String viewProduct(@PathVariable int productId,ModelMap model)throws IOException{
+    public String viewProduct(@PathVariable String productId,ModelMap model)throws IOException{
         model.addAttribute(productService.getById(productId));
         return "viewProduct";
     }

@@ -30,7 +30,7 @@ public class ProductDaoImpl implements ProductDao {
         return products;
     }
 
-    public Product getByProductId(int id) throws IOException {
+    public Product getByProductId(String id) throws IOException {
         Session session = sessionFactory.getCurrentSession();
         Product product = (Product)session.get(Product.class,id);
         session.flush();
@@ -43,7 +43,7 @@ public class ProductDaoImpl implements ProductDao {
         session.flush();
     }
 
-    public void deleteProduct(int id) throws IOException {
+    public void deleteProduct(String id) throws IOException {
         Session session = sessionFactory.getCurrentSession();
         session.delete(getByProductId(id));
         session.flush();
