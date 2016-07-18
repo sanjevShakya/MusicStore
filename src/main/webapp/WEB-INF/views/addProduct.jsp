@@ -6,7 +6,7 @@
     <p class="lead">Fill the below information to add a product</p>
 </div>
 <div class="container">
-    
+
     <form:form action="${BASE_URL}admin/productInventory/addProduct" method="post" commandName="product" enctype="multipart/form-data">
         <div class="form-group">
             <label for="name">Name</label><form:errors path="productName" cssStyle="color: #ff0000"/>
