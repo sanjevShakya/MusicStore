@@ -2,6 +2,7 @@ package com.sshakya.musicstore.dao.impl;
 
 import com.sshakya.musicstore.dao.CartDao;
 import com.sshakya.musicstore.model.Cart;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,6 +11,7 @@ import java.util.Map;
 /**
  * Created by sshakya on 7/18/16.
  */
+@Repository
 public class CartDaoImpl implements CartDao {
 
     private Map<String,Cart> listOfCart;
