@@ -6,7 +6,7 @@ import com.sshakya.musicstore.model.Product;
 import com.sshakya.musicstore.service.CartService;
 import com.sshakya.musicstore.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.expression.ExpressionException;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -20,20 +20,25 @@ import java.io.IOException;
 @Controller
 @RequestMapping("/rest/cart")
 public class CartController {
+
     @Autowired
     private CartService cartService;
     @Autowired
     private ProductService productService;
+
     @RequestMapping(value = "/{cartId}",method = RequestMethod.GET)
     public @ResponseBody Cart read(@PathVariable(value = "cartId")String cartId){
         return cartService.read(cartId);
     }
+
+
     @RequestMapping(value = "/{cartId}",method = RequestMethod.PUT)
     @ResponseStatus(value = HttpStatus.NO_CONTENT)
     public void update(@PathVariable (value = "cartId")String cartId,@RequestBody Cart cart){
         cartService.update(cartId,cart);
 
     }
+
     @RequestMapping(value = "/{cartId}",method = RequestMethod.DELETE)
     @ResponseStatus(value = HttpStatus.NO_CONTENT)
     public void delete(@PathVariable(value = "cartId")String cartId){

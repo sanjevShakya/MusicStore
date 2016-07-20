@@ -1,3 +1,4 @@
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@include file="templates/header.jsp"%>
 <div class="container-wrapper">
     <div class="container">
@@ -9,9 +10,10 @@
                 </div>
             </div>
         </section>
-        <section class="container">
+        <section class="container" ng-app="cartApp">
+            <div ng-controller="cartCtrl" ng-init="initCartId('${cartId}')">
             <div>
-                <a class="btn btn-danger pull-left" href="#"><span class="glyphicon glyphicon-remove-sign"></span> Clear Cart</a>
+                <a class="btn btn-danger pull-left" ng-click="clearCart()"><span class="glyphicon glyphicon-remove-sign"></span>Clear Cart</a>
             </div>
             <table class="table table-responsive table-bordered table-hover">
                 <tr>
@@ -21,24 +23,27 @@
                     <th>Price</th>
                     <th>Action</th>
                 </tr>
-                <tr>
-                    <td>productName</td>
-                    <td>productPrice</td>
-                    <td>quantity</td>
-                    <td>totalPrice</td>
-                    <td>remvoveButton</td>
+                <tr ng-repeat = "item in cart.cartItems">
+                    <td>{{item.product.productName}}</td>
+                    <td>{{item.product.productPrice}}</td>
+                    <td>{{item.quantity}}</td>
+                    <td>{{item.totalPrice}}</td>
+                    <td><a class="label label-danger" ng-click="removeFromCart(item.product.productId)">
+                        <span class="glyphicon glyphicon-remove-sign"></span> Remove</a></td>
                 </tr>
                 <tr>
                     <th></th>
                     <th></th>
                     <th>Grand Total</th>
-                    <th>grandTotal</th>
+                    <th>{{cart.grandTotal}}</th>
                     <th></th>
                 </tr>
 
             </table>
-            <a href="<c:url value="/productList"/>">Continue Shopping</a>
+            <a href="<spring:url value="/productList"/>" class="btn btn-default" >Continue Shopping</a>
+            </div>
         </section>
     </div>
 </div>
+<script src="<c:url value="/resources/js/controller.js"/>"></script>
 <%@include file="templates/footer.jsp"%>

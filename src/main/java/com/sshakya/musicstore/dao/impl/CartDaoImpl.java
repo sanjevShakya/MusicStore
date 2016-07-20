@@ -24,7 +24,7 @@ public class CartDaoImpl implements CartDao {
         if(listOfCart.keySet().contains(cart.getCartId())){
             throw new IllegalArgumentException(String.format("Cannot create a cart. A cart with the given id(%)" +
                     "already" +
-                    "exists "+cart.getCartId()));
+                    "exists ",cart.getCartId()));
 
         }
         listOfCart.put(cart.getCartId(),cart);
@@ -38,7 +38,7 @@ public class CartDaoImpl implements CartDao {
 
     public void update(String cartId,Cart cart) {
         if(!listOfCart.keySet().contains(cartId)){
-            throw new IllegalArgumentException(String.format("Cannot update cart. The cart with the given id(%) doesnot exists" +cart.getCartId()));
+            throw new IllegalArgumentException(String.format("Cannot update cart. The cart with the given id(%) does not exists" ,cart.getCartId()));
         }
         listOfCart.put(cartId,cart);
 
@@ -46,7 +46,7 @@ public class CartDaoImpl implements CartDao {
 
     public void delete(String cartId) {
         if(!listOfCart.keySet().contains(cartId)){
-            throw new IllegalArgumentException(String.format("Cannot delete cart. The cart with the given id(%) does not exist" +cartId));
+            throw new IllegalArgumentException(String.format("Cannot delete cart. The cart with the given id(%) does not exist" ,cartId));
         }
         listOfCart.remove(cartId);
     }

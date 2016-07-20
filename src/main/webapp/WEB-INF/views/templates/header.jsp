@@ -14,7 +14,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <%--<link rel="icon" href="../../favicon.ico">--%>
 
     <title>My Music Store</title>
 
@@ -23,12 +23,8 @@
 
 
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
+    <script src="${RESOURCES}/js/angular.min.js"></script>
     <!-- Custom styles for this template -->
     <link href="${RESOURCES}/css/carousel.css" rel="stylesheet">
     <link href="${RESOURCES}/css/main.css" rel="stylesheet">
